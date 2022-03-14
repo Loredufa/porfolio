@@ -1,0 +1,72 @@
+.nav {   
+    overflow: hidden;
+    height: 60px;
+}
+.leng button{
+  background-color: #b7b7a4;
+  border: none;
+  max-width: 20%;
+  float: left;
+  margin-left: 10px;
+}
+.nav button {
+    float: right;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px rgb(54, 54, 54);
+    background-color: #f09330;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:rgb(34, 34, 34)
+}
+.nav button:hover {
+    background-color: #eccb9a;
+    color: black;
+  }
+.nav button.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  @media screen and (max-width: 320px) {
+    .nav {   
+      overflow: hidden;
+      height: 35px;
+  }
+  .nav button {
+    padding: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  
+}
+.leng button{
+  margin-left: 0px;
+
+
+}
+  }
+
+@media screen and (max-width:768px){
+    .nav {   
+      
+      height: 40px;
+  }
+  .nav button {
+    padding: 6px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+  
+}
+.leng button{
+  margin-left: 0px;
+  padding: 2px;
+  width: 10%;
+}
+  }

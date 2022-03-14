@@ -1,0 +1,48 @@
+.cont {
+  align-items: center;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(37, 37, 37);
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+
+  
+}
+
+input {
+    width: 80%;
+    height: 1.8em;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  
+  }
+  textarea {
+    height: 8em;
+    width: 80%;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+
+  .status-message {
+    opacity: 0;
+  }
+  .success {
+    opacity: 1;
+    color: green;
+  }
+  .failure {
+    opacity: 1;
+    color: red;
+  }
+
+  .danger {
+    opacity: 1;
+    color: red;
+  }
+
+ 

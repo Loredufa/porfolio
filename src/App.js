@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Home from './Components/Home';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import NavBar from './Components/NavBar';
+import Contact from './Components/Contact';
+import TurnOn from './Components/TurnOn';
+import Dog from './Components/Dog';
+import Marvel from './Components/Marvel';
+import Crypto from './Components/Crypto';
+
+
 
 function App() {
   return (
+    <BrowserRouter>
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+      <Route path= "/*" element={<NavBar/>} />
+      </Routes>
+     <Routes>
+    <Route path= "/" element={<Home/>} />
+    <Route path= "/About" element={<About/>} />
+    <Route path= "/Projects" element={<Projects/>} />
+    <Route path= "/Contact" element={<Contact/>} />
+    <Route path= "/TurnOn" element={<TurnOn/>} />
+    <Route path= "/Dog" element={<Dog/>} />
+    <Route path= "/Marvel" element={<Marvel/>} />
+    <Route path= "/Crypto" element={<Crypto/>} />
+    </Routes>
+  
     </div>
+  
+    </BrowserRouter>
   );
 }
 

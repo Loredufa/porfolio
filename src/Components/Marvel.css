@@ -1,0 +1,83 @@
+.MV h1 {
+    font-size: 30px;
+    margin-top: 0;
+    text-align:center;
+    text-shadow: 5px 5px 10px #4d4d4c;
+    text-align: center;
+}
+.MV h2 {
+    font-size: 20px;
+    text-align: center;
+    
+}
+.MV p {
+    font-size: 15px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #5e548e;
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.MV div {
+    display: flex;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 3%;  
+    box-shadow: 5px 5px 10px black;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.MV div div{
+    display: inline;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;  
+    padding: 20px;
+    box-shadow: 0px 0px 0px black;
+}
+.MV video {
+    height: 50%;
+    width: 25%;
+    margin-left: 40px;
+    margin-bottom: 0;
+   
+}
+
+@media screen and (max-width: 320px) {
+    .MV h1{   
+        font-size: 20px;
+  }
+  .MV h2 {
+    font-size: 15px;
+  }
+  .MV div {
+    display:inline;
+    box-shadow: 0px 0px 0px black;
+  }
+  .MV video {
+    box-shadow: 5px 5px 10px black;
+    height: 100%;
+    width: 50%;
+  }
+
+}
+@media screen and (max-width:768px){
+    .MV h1 {   
+        font-size: 20px;
+  }
+  .MV h2 {
+    font-size: 10px;
+  }
+  .MV div {
+    display:inline;
+    box-shadow: 0px 0px 0px black;
+  }
+  .MV video {
+    box-shadow: 5px 5px 10px black;
+    height: 100%;
+    width: 50%;
+}
+}

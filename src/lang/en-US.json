@@ -1,0 +1,35 @@
+{
+    "home.h2": "Full Stack Developer && Degree in administration", 
+    "home.prr": "I love logic and solving problems from a lateral thinking, my best companions today are Javascript, html, NodeJs, Redux, React, CSS and other technologies that I learned in my Full Stack Developer career which gave me the necessary tools to make my ideas come true. I highlight from my professional career as a Bachelor of Administration an orientation to marketing and negotiation, deepening the knowledge and understanding of the behavior and perception of people" ,
+    "menu.home": "Home",
+    "menu.about": "About me",
+    "menu.project": "My projects",
+    "menu.contact": "Contact",
+    "About.prr":"I am Lorena, I am Argentina, I have come a long way where I had the opportunity to live in several cities, meet many people and above all gain a lot of life experience. When I received my degree in Administration from the UBA, I moved to Mexico where I managed to make my way in marketing. After several years I return to my country and my interest in digital Marketing begins, creating several courses and expanding my universe, awakening curiosity about programming, a world so extensive and fascinating where I immerse myself daily, surprising myself with everything that is possible to do and of the many ways to do it.",
+    "About.title1":"My technical skills",
+    "About.title2":"other skills",
+    "About.title3":"Hello",
+    "About.skill1":"MARKETING",
+    "About.skill2":"BRAND POSITIONING",
+    "About.skill3":"MARKET ANALYSIS",
+    "About.skill4":"LATERAL THINKING",
+    "About.skill5":"CREATIVITY",
+    "About.skill6":"NON-VERBAL COMMUNICATION",
+    "About.skill7":"GRAPHOLOGY",
+    "Pro.title": "My Projects",
+    "Pro.title1": "Cryptocurrency quoter",
+    "Tur.h2": "Web application + Mobile application + Super Admin",
+    "Tur.p1": "Development carried out by a very talented team of programmers applying agile methodologies and SOLID principles. It is an integrated shift management system for sports spaces. It consists of: - A web app where the owners of the spaces can register, upload their court offers, specify and edit days and times, manage their reservations, check their movement history, etc. - A mobile app where the user can log in with Google, activate the location and access the closest sports venues ordered by reputation, filter the preferred sport, see the availability of the venues as well as the days and times, make the reservation and pay the same by Mercadopago. Also give each space a score after using it, among other things. - A Super Admin where the application administrator can edit, delete or create users and owners. Also edit, delete or create shifts.",
+    "Tur.p2": "In this project I had to work in the Backend team making the diagram and the relationships of the database, the necessary routes (many) for the correct functioning of the system, I also did the integration of Mercadopago from the back and in the last days of the project I supported in the Frontend team.",
+    "Dog.p1": "In this application you will be able to see all the existing dog breeds browsing the page, sorting by name (A - Z / Z - A) or by weight (max - min / min - max), If you want to see a specific breed, you have a search engine in the home where placing the name will bring you the breeds that match it. You can also filter by the type of temperament of each dog and it has another filter where you can see the existing breeds (those that come from the api) and those created by users. By clicking on the dog's card you will see its details. It has a controlled form where you can create a dog breed indicating name, weight, height, select temperaments and attach an image.",
+    "Dog.p2": "Application 100% made by me, from scratch, scaling from database, Backend and Frontend.",
+    "Mrvl.h2": "Application for mobile devices",
+    "Mrvl.p": "For Marvel fans, an app where you can search for your favorite characters. It has a search engine by name of the character, within this you will find a brief description of it, there you can select Comics and you will find all the comics where the character appears. Use the Marvel Api to obtain all the information, it is designed exclusively in the Front",
+    "Crypto.tit": "Cryptocurrency quoter",
+    "Crypto.p": "Quote your currencies instantly in real time. This application allows you to obtain the values of the crypto in different monetary values, just select the currency of preference and then the crypto to be quoted. This project was done in Front, with React using hooks. In this development I had the opportunity to create and use my own hooks. All the information for the quote is extracted from an api.",
+    "Cont.t": "Contact me",
+    "Nv.1": "I invite you to meet me..."
+    
+
+
+}
