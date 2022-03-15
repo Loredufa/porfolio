@@ -1,5 +1,6 @@
 
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import Nav from './Nav';
 import { FormattedMessage } from 'react-intl';
@@ -28,7 +29,7 @@ export default function Home () {
         <br/>
         <FormattedMessage id="home.prr" defaultMessage="welcome"/>
         </P>
-            <a title="Port" href="/About"> <img src={require("../assets/op1.png")} alt="img not found" width="70%" height="100%"/></a>
+        <Link to="/About"><img src={require("../assets/op1.png")} alt="img not found" width="75%" height="100%"/></Link>
         </div>  
         <Nav/>
         </div>
